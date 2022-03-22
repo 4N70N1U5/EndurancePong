@@ -74,7 +74,6 @@ while running:
         counter += 1
         speed += 0.02
         angle = random.uniform(0.75, 1.25)
-        print(counter)
 
     if ball.rect.colliderect(computer.rect):
         dir_x = -1
